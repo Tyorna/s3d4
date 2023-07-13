@@ -12,6 +12,7 @@ import javax.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import tipi.StatoPartec;
 
 @Entity
 @Table(name = "partecipazioni")

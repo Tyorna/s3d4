@@ -5,6 +5,12 @@ import java.time.LocalDate;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 
+import DAO.EventoDAO;
+import DAO.LocationDAO;
+import DAO.PartecipazioneDAO;
+import DAO.PersonaDAO;
+import tipi.StatoPartec;
+import tipi.TipoEvento;
 import util.JpaUtil;
 
 public class App {
